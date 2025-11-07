@@ -35,6 +35,21 @@
    - 左边界 / 右边界  
    - 满足条件的最小 / 最大位置  
 
+## 📘 练习记录表（Binary Search Practice Log）
+
+| 日期 | 题号 | 题目 | 难度 | 思路 / 技巧 | 备注 |
+|------|------|------|------|--------------|------|
+| 2025-11-06 | 704 | Binary Search | 🟢 Easy | 标准模板题，熟悉 start+1<end 写法 | ✅ 掌握 |
+| 2025-11-06 | 69 | Sqrt(x) | 🟢 Easy | 条件型二分，比较 mid*mid 与 x | 注意越界处理 |
+| 2025-11-06 | 34 | Find First and Last Position of Element in Sorted Array | 🟡 Medium | 左右边界二分法 | ✅ 掌握 |
+| 2025-11-07 | 852 | Peak Index in a Mountain Array | 🟡 Medium | mid 与 mid+1 比较方向 | 待复习 |
+| 2025-11-07 | 162 | Find Peak Element | 🟡 Medium | 比较 mid 与 mid+1 决定方向 | 🔁 复习 |
+| 2025-11-08 | 74 | Search a 2D Matrix | 🟡 Medium | 二维转一维二分 | ✅ 掌握 |
+
+> 💡 每练完一道题就追加一行  
+> “思路 / 技巧” 写核心思想或坑点  
+> “备注” 标明掌握程度（✅ 掌握 / ⚠️ 待巩固 / 🔁 复习）
+
 ---
 
 ## 🐍 Python 模板（含完整注释）
@@ -157,5 +172,6 @@ public class BinarySearch {
 }
 
 ```
+
 
 
