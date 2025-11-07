@@ -79,7 +79,9 @@ def search(self, nums: List[int], target: int) -> int:
     # 若都不是，返回 -1 表示未找到
     return -1
 
+
 ## Java 模板（含完整注释）
+```java 
 
 public class BinarySearch {
     /**
@@ -139,5 +141,7 @@ public class BinarySearch {
         System.out.println(index);  // 输出 3
     }
 }
+
+```
 
 
