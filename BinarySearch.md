@@ -79,6 +79,20 @@ def search(self, nums: List[int], target: int) -> int:
     # 若都不是，返回 -1 表示未找到
     return -1
 
+# 测试 
+if __name__ == "__main__":
+    cases = [
+        ([1, 3, 5, 7, 9], 7, 3),     # 正常命中
+        ([1, 3, 5, 7, 9], 2, -1),    # 不存在
+        ([], 1, -1),                 # 空数组
+        ([1], 1, 0),                 # 单元素命中
+        ([1], 0, -1),                # 单元素不命中
+    ]
+    for arr, t, expected in cases:
+        got = binary_search(arr, t)
+        print(arr, t, "=>", got, "| expected:", expected)
+```
+---
 
 ## Java 模板（含完整注释）
 ```java 
