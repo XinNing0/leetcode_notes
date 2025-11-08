@@ -45,6 +45,11 @@
 | 2025-11-07 | 852 | Peak Index in a Mountain Array | 🟡 Medium | mid 与 mid+1 比较方向 | 待复习 |
 | 2025-11-07 | 162 | Find Peak Element | 🟡 Medium | 比较 mid 与 mid+1 决定方向 | 🔁 复习 |
 | 2025-11-08 | 74 | Search a 2D Matrix | 🟡 Medium | 二维转一维二分 | ✅ 掌握 |
+| 2025-11-09 | 744 | Find Smallest Letter Greater Than Target | 🟢 Easy | 环形二分，若 target ≥ 最后元素返回 letters[0]；注意 `start + 1 < end` 写法 | ✅ 掌握 |
+| 2025-11-09 | 540 | Single Element in a Sorted Array | 🟡 Medium | 利用索引奇偶性判断单个元素位置（`mid ^ 1` 技巧） | 🔁 待复习 |
+| 2025-11-09 | 278 | First Bad Version | 🟢 Easy | 模板题，典型“找第一个 True”边界型二分 | ✅ 掌握 |
+| 2025-11-09 | 275 | H-Index II | 🟡 Medium | 在升序引用次数中二分找满足 `citations[mid] >= n - mid` 的最小 mid | ⚠️ 待巩固 |
+| 2025-11-09 | 33 | Search in Rotated Sorted Array | 🟡 Medium | 分段有序二分，判断左段/右段是否有序后决定方向 | ⚠️ 待巩固 |
 
 > 💡 每练完一道题就追加一行  
 > “思路 / 技巧” 写核心思想或坑点  
@@ -52,10 +57,13 @@
 
 ---
 
+
+---
+
 ## 🐍 Python 模板（含完整注释）
 
 ```python
-def search(self, nums: List[int], target: int) -> int:
+def binarySearch(self, nums: List[int], target: int) -> int:
     """
     二分查找模板 (Python)
     :param nums: 有序数组
