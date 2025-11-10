@@ -50,6 +50,8 @@
 | 2025-11-09 | 278 | First Bad Version | 🟢 Easy | 模板题，典型“找第一个 True”边界型二分 | ✅ 掌握 |
 | 2025-11-09 | 275 | H-Index II | 🟡 Medium | 在升序引用次数中二分找满足 `citations[mid] >= n - mid` 的最小 mid | ⚠️ 待巩固 |
 | 2025-11-09 | 33 | Search in Rotated Sorted Array | 🟡 Medium | 分段有序二分，判断左段/右段是否有序后决定方向 | ⚠️ 待巩固 |
+| 2025-11-09 | 240 | Search a 2D Matrix II | 🟡 Medium | 每走一步排除一整行/列 | ⚠️ 待巩固 |
+
 
 > 💡 每练完一道题就追加一行  
 > “思路 / 技巧” 写核心思想或坑点  
