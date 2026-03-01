@@ -71,10 +71,12 @@ def topKFrequent(nums, k):
     return [item[1] for item in heap]
 ```
 ---
-Java 
+
+## Java 模版
+
 Java 的 PriorityQueue 是 FT SDE 面试中最常被要求手写的 API。
 
-```
+```java
 import java.util.*;
 
 public class HeapSolution {
