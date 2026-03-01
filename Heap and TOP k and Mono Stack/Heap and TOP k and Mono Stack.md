@@ -33,6 +33,11 @@
    - Java 中 `(a, b) -> b - a` 是大顶堆。
    - 如果频率相同要按字母序，逻辑会变复杂，需特别注意。
 
+   - 找第 K 大： 用小顶堆，poll 掉最小值，剩下的都是大值，堆顶是**“大值里的最小”**（即第 K 大）。
+   - PriorityQueue<Integer> pq = new PriorityQueue<>();
+   - 找第 K 小： 用大顶堆，poll 掉最大值，剩下的都是小值，堆顶是**“小值里的最大”**（即第 K 小）。
+   - PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+
 ---
 
 ## 📘 练习记录表 (Heap Practice Log)
