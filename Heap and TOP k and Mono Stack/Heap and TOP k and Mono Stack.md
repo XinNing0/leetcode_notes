@@ -38,7 +38,7 @@
    - 找第 K 小： 用大顶堆，poll 掉最大值，剩下的都是小值，堆顶是**“小值里的最大”**（即第 K 小）。
    - PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
 
----
+---   
 
 ## 📘 练习记录表 (Heap Practice Log)
 
