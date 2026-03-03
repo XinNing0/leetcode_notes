@@ -21,7 +21,7 @@
 * **我的感想：** 理解了“找大用小”的逻辑：堆顶是最小值，新元素比堆顶大时踢掉旧堆顶，最后剩下的就是 Top K Largest。
 
 ### 347. Top K Frequent Elements
-* **核心思路：** `HashMap` for counting + **Min-Heap**.
+* **核心思路：** 比215复杂一点 需要`HashMap` for counting + **Min-Heap**.
 * **我的感想：** 学会了直接将 `int[] {num, count}` 放入堆中比较 `index 1` 的技巧，代码更简洁，不需要 Entry 类。
 
 ### 973. K Closest Points to Origin
@@ -30,6 +30,7 @@
     * ⚠️ **易错点**：求 Smallest $K$ 要用 **Max-Heap**（为了 poll 掉那个最大的）。
     * 🚀 **优化**：直接比较 $x^2 + y^2$ 避免 `Math.sqrt()`。
     * **进阶 (Quickselect):** 掌握了平均时间复杂度 $O(N)$ 的分区算法，面试加分项。
+    *  **内存隔离感悟**： 🌟new int[k][2] 创建的是一块全新的内存空间，它与原数组 points 是完全独立的。即使把堆中的元素存入 res，也只是引用的转移，原数组 points 的内容和结构都不会受到任何干扰。在面试中，明确“不修改输入数据（Immutable approach）”通常是一个非常稳健的代码习惯。
 
 ### 692. Top K Frequent Words
 * **核心思路：** Min-Heap + Custom Comparator.
