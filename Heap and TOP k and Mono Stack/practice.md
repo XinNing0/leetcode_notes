@@ -9,7 +9,7 @@
 | 347 | [Top K Frequent](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | 🟢 | 03-01 | [x] 03-04 | [ ] 03-08 | [ ] 04-01 | [Jump](#347-top-k-frequent-elements) |
 | 973 | [K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | 🟡 | 03-03 | [ ] 03-06 | [ ] 03-10 | [ ] 04-02 | [Jump](#973-k-closest-points-to-origin) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | 🟢 | 03-05 | [ ] | [Jump](#692) |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | ⚪ | 待定 | [ ] | [ ] | [ ] | [Jump](#23-merge-k-sorted-lists) |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | ⚪ | 待定 | [03-05 ] | [ ] | [ ] | [Jump](#23-merge-k-sorted-lists) |
 | 295 | [Find Median](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 | ⚪ | 待定 | [ ] | [ ] | [ ] | [Jump](#295-find-median-from-data-stream) |
 
 ---
@@ -38,8 +38,9 @@
     * 💡 **原理**：小顶堆是用来“踢人”的。我们要踢掉频率低的，或者频率相同但字母序靠后的。
 
 ### 23. Merge k Sorted Lists
-* **核心思路：** Multi-way Merge using a Min-Heap.
-* **待记录：** 每次从堆中取出最小节点，并将其 `next` 指针指向的节点重新放入堆中。
+* **核心思路：** Multi-way Merge using a Min-Heap. 所有的多路归并（373, 23）套路都一样：堆里始终只维护“每个序列的当前头节点”。
+* **Hard 点感悟** ： 难不在算法，而在链表指针的断开与重连。
+* **技巧**： 使用 Dummy Node（哨兵节点）可以极大简化链表头部的处理逻辑。 每次从堆中取出最小节点，并将其 `next` 指针指向的节点重新放入堆中。
 
 ### 295. Find Median from Data Stream
 * **核心思路：** Two Heaps (Max-Heap for left half, Min-Heap for right half).
