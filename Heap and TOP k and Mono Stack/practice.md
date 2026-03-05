@@ -8,7 +8,7 @@
 | 215 | [Kth Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 | 🟢 | 03-01 | [x] 03-04 | [ ] 03-08 | [ ] 04-01 | [Jump](#215-kth-largest-element-in-an-array) |
 | 347 | [Top K Frequent](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | 🟢 | 03-01 | [x] 03-04 | [ ] 03-08 | [ ] 04-01 | [Jump](#347-top-k-frequent-elements) |
 | 973 | [K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | 🟡 | 03-03 | [ ] 03-06 | [ ] 03-10 | [ ] 04-02 | [Jump](#973-k-closest-points-to-origin) |
-| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | ⚪ | 待定 | [ ] | [ ] | [ ] | [Jump](#692-top-k-frequent-words) |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | 🟢 | 03-05 | [ ] | [Jump](#692) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | ⚪ | 待定 | [ ] | [ ] | [ ] | [Jump](#23-merge-k-sorted-lists) |
 | 295 | [Find Median](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 | ⚪ | 待定 | [ ] | [ ] | [ ] | [Jump](#295-find-median-from-data-stream) |
 
@@ -33,8 +33,9 @@
     *  **内存隔离感悟**： 🌟new int[k][2] 创建的是一块全新的内存空间，它与原数组 points 是完全独立的。即使把堆中的元素存入 res，也只是引用的转移，原数组 points 的内容和结构都不会受到任何干扰。在面试中，明确“不修改输入数据（Immutable approach）”通常是一个非常稳健的代码习惯。
 
 ### 692. Top K Frequent Words
-* **核心思路：** Min-Heap + Custom Comparator.
-* **待记录：** 注意频率相同时，字母序（Lexicographical order）的处理。
+* **核心思路：** `HashMap` 计数 + 小顶堆 (Min-Heap)。
+* **我的感想：** * ⚠️ **双重排序逻辑**：频率不同按频率升序；频率相同按**字母序降序**（`w2.compareTo(w1)`）。
+    * 💡 **原理**：小顶堆是用来“踢人”的。我们要踢掉频率低的，或者频率相同但字母序靠后的。
 
 ### 23. Merge k Sorted Lists
 * **核心思路：** Multi-way Merge using a Min-Heap.
