@@ -9,7 +9,7 @@
 | 347 | [Top K Frequent](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | 🟢 | 03-01 | [x] 03-04 | [ ] 03-08 | [ ] 04-01 | [Jump](#347-top-k-frequent-elements) |
 | 973 | [K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | 🟡 | 03-03 | [ ] 03-06 | [ ] 03-10 | [ ] 04-02 | [Jump](#973-k-closest-points-to-origin) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | 🟢 | 03-05 | [ ] | [Jump](#692) |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | ⚪ | 待定 | [03-05 ] | [ ] | [ ] | [Jump](#23-merge-k-sorted-lists) |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | ⚪ | 03-05 | [03-05 ] | [ ] | [ ] | [Jump](#23-merge-k-sorted-lists) |
 | 295 | [Find Median](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 | ⚪ | 待定 | [ ] | [ ] | [ ] | [Jump](#295-find-median-from-data-stream) |
 
 ---
