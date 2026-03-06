@@ -1,16 +1,18 @@
-# 🎯 LeetCode 刷题与复习追踪器 (Top K 专题)
+# 🎯 LeetCode 刷题与复习追踪器 (Top K & Heap 专题)
 
-> **当前进度：** 3 / 6
-> **最后更新：** 2026-03-03
+> **当前进度：** 5 / 8 (新增 373 及基础练手题)
+> **最后更新：** 2026-03-05
 
-| 题号 | 题目 (LeetCode.com) | 难度 | 状态 | 初刷日期 | 复习1 (3D) | 复习2 (7D) | 复习3 (30D) | 笔记链接 |
-| :--- | :--- | :---: | :---: | :--- | :--- | :--- | :--- | :--- |
-| 215 | [Kth Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 | 🟢 | 03-01 | [x] 03-04 | [ ] 03-08 | [ ] 04-01 | [Jump](#215-kth-largest-element-in-an-array) |
-| 347 | [Top K Frequent](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | 🟢 | 03-01 | [x] 03-04 | [ ] 03-08 | [ ] 04-01 | [Jump](#347-top-k-frequent-elements) |
-| 973 | [K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | 🟡 | 03-03 | [ ] 03-06 | [ ] 03-10 | [ ] 04-02 | [Jump](#973-k-closest-points-to-origin) |
+| 题号 | 题目 (LeetCode.com) | 难度 | 状态 | 初刷日期 | 复习1 (3D) | 笔记链接 |
+| :--- | :--- | :---: | :---: | :--- | :--- | :--- |
+| 215 | [Kth Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 | 🟢 | 03-01 | [x] | [Jump](#215) |
+| 347 | [Top K Frequent](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | 🟢 | 03-01 | [x] | [Jump](#347) |
+| 973 | [K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | 🟢 | 03-03 | [ ] | [Jump](#973) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | 🟢 | 03-05 | [ ] | [Jump](#692) |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | ⚪ | 03-05 | [03-05 ] | [ ] | [ ] | [Jump](#23-merge-k-sorted-lists) |
-| 295 | [Find Median](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 | ⚪ | 待定 | [ ] | [ ] | [ ] | [Jump](#295-find-median-from-data-stream) |
+| 373 | [Smallest Sum Pairs](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | 🟡 | 🟢 | 03-05 | [ ] | [Jump](#373) |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | 🟡 | 03-05 | [ ] | [Jump](#23) |
+| 295 | [Find Median](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 | ⚪ | 待定 | [ ] | [Jump](#295) |
+| 1464| [Max Product of Two](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 | 🟢 | 03-05 | [ ] | [练手题](#tips) |
 
 ---
 
