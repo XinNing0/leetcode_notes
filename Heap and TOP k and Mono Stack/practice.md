@@ -1,18 +1,30 @@
 # 🎯 LeetCode 刷题与复习追踪器 (Top K & Heap 专题)
 
-> **当前进度：** 5 / 8 (新增 373 及基础练手题)
-> **最后更新：** 2026-03-05
+> **当前进度：** 7 / 10 
+> **最后更新：** 2026-03-10
 
-| 题号 | 题目 (LeetCode.com) | 难度 | 状态 | 初刷日期 | 复习1 (3D) | 笔记链接 |
-| :--- | :--- | :---: | :---: | :--- | :--- | :--- |
-| 215 | [Kth Largest Element](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 | 🟢 | 03-01 | [x] | [Jump](#215) |
-| 347 | [Top K Frequent](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 | 🟢 | 03-01 | [x] | [Jump](#347) |
-| 973 | [K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟡 | 🟢 | 03-03 | [ ] | [Jump](#973) |
-| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟡 | 🟢 | 03-05 | [ ] | [Jump](#692) |
-| 373 | [Smallest Sum Pairs](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | 🟡 | 🟢 | 03-05 | [ ] | [Jump](#373) |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 | 🟡 | 03-05 | [ ] | [Jump](#23) |
-| 295 | [Find Median](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 | ⚪ | 待定 | [ ] | [Jump](#295) |
-| 1464| [Max Product of Two](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 | 🟢 | 03-05 | [ ] | [练手题](#tips) |
+### 1. 基础练手 (Easy) —— 巩固语法与“踢人”逻辑
+| 题号 | 题目 (LeetCode) | 状态 | 初刷日期 | 复习 (3D) | 核心考点 |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| 1464 | [Max Product](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 | 03-10 | [ ] | 维护 Size=2 的小顶堆 |
+| 1337 | [K Weakest Rows](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | 🟢 | 03-10 | [ ] | 多字段排序 `int[] {val, idx}` |
+| 703 | [Kth Largest in Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 | 03-10 | [ ] | 数据流动态维护 K 个最大 |
+
+### 2. 经典 Top K (Medium) —— 掌握频率与距离计算
+| 题号 | 题目 (LeetCode) | 状态 | 初刷日期 | 复习 (3D) | 核心考点 |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| 215 | [Kth Largest](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟢 | 03-01 | [x] | 基础小顶堆/Quickselect |
+| 347 | [Top K Frequent](https://leetcode.com/problems/top-k-frequent-elements/) | 🟢 | 03-01 | [x] | Map 计数 + 堆 |
+| 973 | [K Closest Points](https://leetcode.com/problems/k-closest-points-to-origin/) | 🟢 | 03-03 | [ ] | 距离计算 + 大顶堆 |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | 🟢 | 03-05 | [ ] | 字典序降序坑点 |
+
+### 3. 高级堆应用 (Hard / 组合) —— 攻克复杂逻辑
+| 题号 | 题目 (LeetCode) | 状态 | 初刷日期 | 复习 (3D) | 核心考点 |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| 373 | [Smallest Sum Pairs](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | 🟢 | 03-05 | [ ] | 多路归并 (BFS+PQ) |
+| 23 | [Merge k Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🟡 | 03-05 | [ ] | 指针断连 + 哨兵节点 |
+| 295 | [Find Median](https://leetcode.com/problems/find-median-from-data-stream/) | 🟡 | 03-10 | [ ] | 对顶堆 (双堆动态平衡) |
+
 
 ---
 
