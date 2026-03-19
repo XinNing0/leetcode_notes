@@ -13,7 +13,7 @@
 | 744 | [Next Letter](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | 🟢 | 字符二分 | `char` 本质是整数；利用 `left % n` 处理循环。 |
 | 852 | [Peak Index](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | 🟢 | 趋势二分 | 比较 `mid` 和 `mid+1`，在山上定位峰顶。 |
 | 1351 | [Count Negatives](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 | **矩阵二分** | **外层 Row 遍历 + 内层 Col 二分**。 |
-
+| 1608| 
 ### 💡 1351 专项总结 (降维打击)
 - **二维数组定义**：`m = grid.length` (行), `n = grid[0].length` (列)。
 - **二分策略**：在降序数组中找“第一个负数”。

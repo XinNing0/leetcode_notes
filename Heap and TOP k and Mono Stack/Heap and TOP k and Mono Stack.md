@@ -1,4 +1,4 @@
-# 🧭 第七章：堆与 Top K 问题 (Heap / Priority Queue)
+# 🧭 堆与 Top K 问题 (Heap / Priority Queue)
 
 > 🚀 **核心思想：**
 > 堆是一种特殊的完全二叉树。**大顶堆**保证根节点最大，**小顶堆**保证根节点最小。  
